@@ -1,3 +1,5 @@
+import chalk from "chalk";
+
 const args = process.argv.slice(2);
 
-console.log("Hello", ...args);
+console.log(chalk.green("Hello", ...args));
