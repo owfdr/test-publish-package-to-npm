@@ -1,5 +1,11 @@
 # test-publish-package-to-npm
 
+## 0.3.0
+
+### Minor Changes
+
+- a0169ba: add --version, --help option
+
 ## 0.2.1
 
 ### Patch Changes
