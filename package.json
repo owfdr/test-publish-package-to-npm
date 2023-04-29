@@ -5,6 +5,11 @@
   "bin": {
     "tppt": "../bin/index.js"
   },
+  "files": [
+    "bin",
+    "dis/"
+  ],
+  "type": "commonjs",
   "scripts": {
     "test": "jest --watch",
     "lint": "tsc && eslint src --ext .ts",
