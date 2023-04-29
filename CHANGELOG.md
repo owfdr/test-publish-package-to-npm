@@ -1,5 +1,11 @@
 # test-publish-package-to-npm
 
+## 0.2.1
+
+### Patch Changes
+
+- 7d0b26c: fix doc misinformation
+
 ## 0.2.0
 
 ### Minor Changes
