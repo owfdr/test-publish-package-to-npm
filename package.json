@@ -2,11 +2,13 @@
   "name": "test-publish-package-to-npm",
   "version": "0.0.1",
   "description": "",
-  "main": "index.js",
+  "bin": {
+    "tppt": "../bin/index.js"
+  },
   "scripts": {
     "test": "jest --watch",
     "lint": "tsc && eslint src --ext .ts",
-    "build": "tsup src/index.ts --format cjs,esm --dts-resolve",
+    "build": "tsup src/index.ts --format cjs",
     "release": "npm run build && changeset publish"
   },
   "keywords": [],
