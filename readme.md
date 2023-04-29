@@ -1,11 +1,13 @@
-# Test Package Publish
+# Test Publish Package to NPM
 
 This is a test package for learning how to publish packages to npm.
+
+[![npm version](https://badge.fury.io/js/test-publish-package-to-npm.svg)](https://badge.fury.io/js/test-publish-package-to-npm)
 
 ## Installation
 
 ```bash
-npm install test-package-publish --global
+npm install test-publish-package-to-npm --global
 ```
 
 ## Usage
