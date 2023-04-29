@@ -1,6 +1,6 @@
 {
   "name": "test-publish-package-to-npm",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "description": "",
   "bin": {
     "tppt": "../bin/index.js"
