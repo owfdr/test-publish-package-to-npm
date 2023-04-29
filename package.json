@@ -5,12 +5,15 @@
   "main": "index.js",
   "scripts": {
     "test": "jest --watch",
-    "build": "tsup src/index.ts --format cjs,esm --dts-resolve"
+    "lint": "tsc && eslint src --ext .ts",
+    "build": "tsup src/index.ts --format cjs,esm --dts-resolve",
+    "release": "npm run build && changeset publish"
   },
   "keywords": [],
   "author": "",
   "license": "MIT",
   "devDependencies": {
+    "@changesets/cli": "^2.26.1",
     "@commitlint/cli": "^17.6.1",
     "@commitlint/config-conventional": "^17.6.1",
     "@types/jest": "^29.5.1",
