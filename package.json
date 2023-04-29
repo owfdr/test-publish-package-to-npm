@@ -7,7 +7,7 @@
   },
   "files": [
     "bin",
-    "dis/"
+    "dist"
   ],
   "type": "commonjs",
   "scripts": {
