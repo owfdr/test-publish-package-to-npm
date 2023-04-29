@@ -14,6 +14,7 @@
     "test": "jest --watch",
     "lint": "tsc && eslint src --ext .ts",
     "build": "tsup src/index.ts --format cjs",
+    "change": "changeset",
     "release": "npm run build && changeset publish"
   },
   "keywords": [],
